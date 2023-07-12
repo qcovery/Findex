@@ -2,7 +2,7 @@
 
 namespace Findex\RecordDriver;
 
-class SolrMarc extends \VuFind\RecordDriver\SolrMarc
+class SolrMarc extends \RecordDriver\RecordDriver\SolrMarc
 {
     /**
      * Get the short (pre-subtitle) title of the record.
